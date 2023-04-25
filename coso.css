@@ -1,0 +1,153 @@
+body{
+  font-family: 'Carlito';
+}
+
+.menu-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: black;
+    color: #cdcdcd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .LogoAbstract {
+    margin: 0 20px;
+  }
+  
+  .LogoAbstract img {
+    max-height: 40px;
+    max-width: 80px;
+    flex-shrink: 0;
+  }
+  
+  .menu-container a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu ul {
+    list-style: none;
+  }
+  
+  .menu li {
+    padding: 10px 0;
+    font-size: 25px;
+  }
+ .menu-container {
+      width: 100%;
+    }
+  
+.menu-container a {
+      color: #cdcdcd;
+    }
+.menu {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+.menu ul {
+      display: flex;
+      padding: 0;
+    }
+.menu li {
+      padding: 0 20px;
+    }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #dadbf1;
+    color: black;
+    font-size: 30px;
+  }
+
+form{
+    width:600px;
+    height: 55px;
+    display: flex;
+    margin: 0 auto; 
+    border: black solid 1px;
+}
+
+form input{
+    flex: 1;
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1203px;
+    background-color: white
+  }
+  .div-box {
+    width: 360px;
+    height: 100px;
+    margin: 50px;
+    margin-left: 0;
+    background-color: white;
+  }
+  .div-box1{
+    width: 60px;
+    margin-left: 80px;
+    margin-right: 20px;
+    background-color: white;
+  }
+
+footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.pablo{
+    color: white;
+    margin: 10px;
+    flex-basis: calc(20% - 20px);
+}
+  
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+li {
+    margin-bottom: 5px;
+}
+
+.BottoneBello1 {
+	border-radius:7px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #000000;
+}
+
+.BottoneBello2{
+    background-color:#4C5FD5;
+	border-radius:7px;
+	border:1px solid #4C5FD5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #000000;
+}
